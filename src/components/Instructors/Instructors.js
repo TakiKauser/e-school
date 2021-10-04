@@ -5,6 +5,7 @@ import Instructor from '../Instructor/Instructor';
 import './Instructors.css';
 
 const Instructors = () => {
+    // react hooks
     const [instructors, setInstructors] = useState([]);
     useEffect(() => {
         fetch("./instructors.JSON")

@@ -10,7 +10,7 @@ const About = () => {
                     <h1 className="fw-bolder">eSchool</h1>
                 </div>
                 <div className="col-5 content">
-                    <article>"eSchool" is an online platform to learn & develop your skills. Experts are providing courses of different kinds of basic skill development sectors. Join us & utilize your time by developing your skills with the supervision of proffessionals.</article>
+                    <p>"eSchool" is an online platform to learn & develop your skills. Experts are providing courses of different kinds of basic skill development sectors. Join us & utilize your time by developing your skills with the supervision of proffessionals.</p>
                 </div>
             </div>
         </div>

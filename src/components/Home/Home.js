@@ -3,7 +3,7 @@ import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
 import Instructors from '../Instructors/Instructors';
 import Services from '../Services/Services';
-import './Home.css'
+import './Home.css';
 
 const Home = () => {
     return (

@@ -5,7 +5,7 @@ import { Card, Col } from 'react-bootstrap';
 import './Service.css';
 
 const Sevice = (props) => {
-    // console.log(props);
+    // destructure object properties
     const { img, name, seats, price } = props.service;
     return (
         <div>

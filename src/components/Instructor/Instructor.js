@@ -14,7 +14,6 @@ const Instructor = (props) => {
                 <div className="ms-3">
                     <h3>{name}</h3>
                     <h6><FontAwesomeIcon icon={faGraduationCap} /> {expertise}</h6>
-                    {/* <FontAwesomeIcon icon={faGithub} /> */}
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import Service from '../Service/Service';
 import './Services.css';
 
 const Services = () => {
+    // react hooks
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch("./services.JSON")
