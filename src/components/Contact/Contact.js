@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import React from 'react';
 import './Contact.css';
-import { Link } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap';
 
 const Contact = () => {
@@ -29,11 +28,11 @@ const Contact = () => {
                 </div>
             </div>
             <div className="social-icons-container">
-                <Link><a href="https://github.com/TakiKauser" target="_blank" rel="noopener noreferrer"><FaGithub className="social-icon" /></a></Link>
-                <Link><a href="https://www.linkedin.com/in/taki-kauser/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="social-icon" /></a></Link>
-                <Link><a href="https://www.facebook.com/taki.kauser" target="_blank" rel="noopener noreferrer"><FaFacebook className="social-icon" /></a></Link>
-                <Link><a href="https://www.instagram.com/taki_kauser/" target="_blank" rel="noopener noreferrer"><FaInstagram className="social-icon" /></a></Link>
-                <Link><a href="https://twitter.com/taki_kauser" target="_blank" rel="noopener noreferrer"><FaTwitter className="social-icon" /></a></Link>
+                <FaGithub className="social-icon" />
+                <FaLinkedin className="social-icon" />
+                <FaFacebook className="social-icon" />
+                <FaInstagram className="social-icon" />
+                <FaTwitter className="social-icon" />
             </div>
             <div className="container p-4">
                 <h2>Contact Us</h2>
