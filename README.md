@@ -2,7 +2,7 @@
 
 Links:
 
-[Live Server Link](https://travel-spots.netlify.app/)
+[Live Server Link]()
 
 [Repository Link](https://github.com/ProgrammingHeroWC4/review-website-TakiKauser)
 
