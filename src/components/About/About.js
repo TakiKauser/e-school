@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 
 const About = () => {
+    // about eSchool in a card
     return (
         <div className="container about-container">
             <div className="row">

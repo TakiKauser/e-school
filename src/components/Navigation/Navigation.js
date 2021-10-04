@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
+    // navigation links
     return (
         <div>
             <Navbar bg="transparent" variant="transparent" fixed="top" expand="lg">

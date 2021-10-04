@@ -12,6 +12,7 @@ import Instructors from './components/Instructors/Instructors';
 import NotFound from './components/NotFound/NotFound';
 
 function App() {
+  // react router navigation path
   return (
     <div className="App">
       <Router>

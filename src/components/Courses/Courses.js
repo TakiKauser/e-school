@@ -6,7 +6,9 @@ import Course from '../Course/Course';
 import './Courses.css';
 
 const Courses = () => {
+    // react hooks
     const [courses, setCourses] = useState([]);
+    // fetch json data
     useEffect(() => {
         fetch("./courses.JSON")
             .then(response => response.json())

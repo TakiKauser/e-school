@@ -5,7 +5,9 @@ import { Card, Col } from 'react-bootstrap';
 import './Course.css';
 
 const Course = (props) => {
+    // destructure properties from object as props
     const { img, name, Description, seats, price } = props.course;
+    // individual course
     return (
         <div>
             <Col>

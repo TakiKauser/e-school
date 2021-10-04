@@ -6,6 +6,7 @@ import './Services.css';
 const Services = () => {
     // react hooks
     const [services, setServices] = useState([]);
+    // fetch json data
     useEffect(() => {
         fetch("./services.JSON")
             .then(response => response.json())

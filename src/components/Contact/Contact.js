@@ -11,6 +11,7 @@ import './Contact.css';
 import { Form, Button } from 'react-bootstrap';
 
 const Contact = () => {
+    // contains contact info
     return (
         <div>
             <div className="p-5 d-flex justify-content-around align-items-center">

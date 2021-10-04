@@ -4,7 +4,9 @@ import React from 'react';
 import './Instructor.css'
 
 const Instructor = (props) => {
+    // destructure properties of object from props
     const { img, name, expertise } = props.instructor;
+    // individual instructor data displayed
     return (
         <div className="mx-auto instructor col-sm-1 col-md-3">
             <div className=" d-flex justify-content-center align-items-center">

@@ -14,6 +14,8 @@ const NotFound = () => {
                     <FontAwesomeIcon icon={faArrowLeft} /> Back to Home
                 </Button>
             </NavLink>
+            {/* back-up text as bg-img can rarely found in netlify! */}
+            <h1 className="bg-danger text-white fw-bolder p-3">404 Page Not Found ! ! !</h1>
         </div>
     );
 };

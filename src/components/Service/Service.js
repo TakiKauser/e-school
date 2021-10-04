@@ -7,6 +7,7 @@ import './Service.css';
 const Sevice = (props) => {
     // destructure object properties
     const { img, name, seats, price } = props.service;
+    // individual service displayed
     return (
         <div>
             <Col>
