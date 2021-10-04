@@ -1,0 +1,10 @@
+.about-container{
+    /* position:relative; */
+    /* border: 1px solid red; */
+    padding: 100px 0;
+    box-shadow: 15px 15px 15px grey;
+}
+.content{
+    border-left: 1px solid grey;
+    text-align: start;
+}

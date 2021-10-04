@@ -1,0 +1,11 @@
+.instructor{
+    /* border: 3px solid black; */
+    border-radius: 7px;
+    box-shadow: 15px 15px 15px grey;
+    padding: 40px;
+}
+.instructor-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}

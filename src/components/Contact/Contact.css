@@ -1,0 +1,19 @@
+.contact-icon{
+    font-size: 40px;
+}
+.social-icons-container{
+    background-color: black;
+    height: 150px;
+}
+.social-icon{
+    color: teal;
+    font-size: 100px;
+    padding-top: 40px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+.social-icon:hover{
+    color: orange;
+    font-size: 100px;
+    padding-top: 40px;
+}
