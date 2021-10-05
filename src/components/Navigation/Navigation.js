@@ -7,17 +7,17 @@ const Navigation = () => {
     // navigation links
     return (
         <div>
-            <Navbar bg="transparent" variant="transparent" fixed="top" expand="lg">
+            <Navbar className="nav-style" variant="transparent" fixed="top" expand="lg">
                 <Container>
                     <Navbar.Brand className="text-dark fw-bolder">eSchool</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
-                            <NavLink to="/home" className="navlink">Home</NavLink>
-                            <NavLink to="/courses" className="navlink">Courses</NavLink>
-                            <NavLink to="/instructors" className="navlink">Instructors</NavLink>
-                            <NavLink to="/about" className="navlink">About</NavLink>
-                            <NavLink to="/contact" className="navlink">Contact</NavLink>
+                            <NavLink to="/home" activeStyle={{ color: 'teal', fontWeight: 'bold' }} className="navlink">Home</NavLink>
+                            <NavLink to="/courses" activeStyle={{ color: 'teal', fontWeight: 'bold' }} className="navlink">Courses</NavLink>
+                            <NavLink to="/instructors" activeStyle={{ color: 'teal', fontWeight: 'bold' }} className="navlink">Instructors</NavLink>
+                            <NavLink to="/about" activeStyle={{ color: 'teal', fontWeight: 'bold' }} className="navlink">About</NavLink>
+                            <NavLink to="/contact" activeStyle={{ color: 'teal', fontWeight: 'bold' }} className="navlink">Contact</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
