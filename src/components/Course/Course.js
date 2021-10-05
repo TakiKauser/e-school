@@ -3,6 +3,8 @@ import { faHandPointRight, faUserFriends, faDollarSign } from '@fortawesome/free
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import './Course.css';
+import { NavLink } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const Course = (props) => {
     // destructure properties from object as props
@@ -21,6 +23,11 @@ const Course = (props) => {
                                 <p className="p-2 m-2 fw-bold">Course Fee: <FontAwesomeIcon icon={faDollarSign} /> {price}</p>
                             </div>
                             <p className="p-2 mx-2">{Description.slice(0, 203)}</p>
+                            <NavLink to="*">
+                                <Button className="px-3" variant="secondary">
+                                    Enroll this Course
+                                </Button>
+                            </NavLink>
                         </Card.Text>
                     </Card.Body>
                 </Card>
