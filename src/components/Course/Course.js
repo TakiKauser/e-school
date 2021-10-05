@@ -17,10 +17,10 @@ const Course = (props) => {
                         <Card.Title><FontAwesomeIcon icon={faHandPointRight} /> {name}</Card.Title>
                         <Card.Text>
                             <div className="d-flex justify-content-center">
-                                <h5 className="p-2 m-2">Available Seat: <FontAwesomeIcon icon={faUserFriends} /> {seats}</h5>
-                                <h5 className="p-2 m-2">Course Fee: <FontAwesomeIcon icon={faDollarSign} /> {price}</h5>
+                                <p className="p-2 m-2 fw-bold">Available Seat: <FontAwesomeIcon icon={faUserFriends} /> {seats}</p>
+                                <p className="p-2 m-2 fw-bold">Course Fee: <FontAwesomeIcon icon={faDollarSign} /> {price}</p>
                             </div>
-                            <p>{Description}</p>
+                            <p className="p-2 mx-2">{Description.slice(0, 203)}</p>
                         </Card.Text>
                     </Card.Body>
                 </Card>
